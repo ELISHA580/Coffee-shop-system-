@@ -1,0 +1,22 @@
+<?php 
+    session_start();
+    $conn = mysqli_connect("localhost","root","","pongwe");
+
+    if (isset($_POST['name'])) {
+        $name = $_POST['name'];
+        $product = $_POST['product'];
+        $location = $_POST['location'];
+        $derivery = $_POST['derivery'];
+        $payment = $_POST['payment'];
+        $amount = $_POST['amount'];
+
+        $sql = "INSERT INTO messages (`name`, `product`, `location`, `derivery`, `payment`, `amount`) VALUES ('$name', '$product', '$location', '$derivery', '$payment', '$amount')";
+
+        mysqli_query($conn, $sql);
+        header('location: thankyou.php');
+    }
+        else {
+            echo "An error occured.";
+        }
+    
+?>

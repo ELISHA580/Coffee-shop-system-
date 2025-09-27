@@ -1,0 +1,256 @@
+body{
+    background-color: rgb(224, 218, 218);
+}
+.shop{
+    padding-top: 250px;
+    text-emphasis: none;
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+    font-size: xx-large;
+    display: sticky;
+    color: blanchedalmond;
+}
+.but{
+    border-radius: 5px;
+}
+.Pongwe{
+    background-color: black;
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
+}
+blockquote{
+    text-align: left;
+    color: blanchedalmond;
+    position: sticky;
+    top: 0px;
+    font-family: 'Bradley Hand ITC';
+}
+nav{
+    color: black;
+    background: black;
+    text-align: center;
+    width: 1329px;
+    height: 50px;
+    background-image: url(download.jpegj);
+    background-repeat: repeat-y;
+}
+a{
+    padding-bottom: 10px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+.coffe1{
+    width: 995px;
+    background: black;
+    height: 250px;
+    margin-left: 195px;
+    border-radius: 10px;
+    color: blanchedalmond;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    pointer-events: all;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0s;
+}
+.coff{
+    padding-top: 100px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.coff button{
+    background: black;
+    color: blanchedalmond;
+    width:fit-content;
+    display: flex;
+    transition: 2s;
+    border-radius: 10px;
+}
+
+.coffe2{
+    width: 995px;
+    background: black;
+    height: fit-content;
+    margin-left: 195px;
+    border-radius: 10px;
+    color: blanchedalmond;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: large;
+    transition: 0s;
+}
+.coffe2 img :hover{
+    width: 450px;
+}
+.user{
+    background-image: url(images.jpeg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    background-color: blanchedalmond;
+    position: absolute;
+    left: 100px;
+    position: fixed;
+    top: 100px;
+    border-radius: 100px;
+}
+.end{
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    font-size: large;
+    margin-top: opx;
+}
+textarea{
+    width: 500px;
+    height: 85px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    float: center;
+    left:12;
+    padding-left: 12px;
+    margin-left: 190px;
+    background: center black;
+    color: blanchedalmond;
+}
+form textarea{
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.coffe3{
+    width: 995px;
+    background: black;
+    height: fit-content;
+    margin-left: 195px;
+    border-radius: 10px;
+    color: blanchedalmond;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    font-size: large;
+}
+li{
+    text-align: left;
+    margin-left: 10px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px 1fr));
+    gap: 20px;
+    
+}
+.btn{
+    text-align: center;
+    background: black;
+    color: blanchedalmond;
+}
+button{
+    text-align: center;
+    font-size: large;
+    background-color: black;
+    color: blanchedalmond;
+    margin-left: 625px;
+}
+a{
+    color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    pointer-events: visibleFill red;
+    font-size: larger;
+    transition: 10ms;
+}
+.box{
+    width: 810px;
+    height: fit-content;
+    color: blanchedalmond;
+    background-color: black;
+}
+.schedule{
+    width: 995px;
+    background: black;
+    height: fit-content;
+    margin-left: 195px;
+    border-radius: 10px;
+    color: blanchedalmond;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+table{
+    color: black;
+    background-color: blanchedalmond;
+    font-size: large;
+    left: 0mm;
+    margin-left: 20px;
+    border: black;
+    box-shadow: brown;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px ;
+    width: 95%;
+    transition: 10s;
+
+}
+table tr th{
+    color:blanchedalmond;
+    background-color: black;
+    border-left: black;
+    border-right: black;
+}
+table tr td{
+    background-color: black;
+    color: blanchedalmond;
+}
+.gallery{
+    width: 955px;
+    background: black;
+    height: fit-content;
+    margin-left: 195px;
+    border-radius: 10px;
+    color: blanchedalmond;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.max{
+    margin-top: opx;
+    padding-top: 145px;
+    position: sticky;
+    color: burlywood;
+}
+.end1{
+    margin-top: 0px;
+}
+.mr{
+    transition: 25s;
+}
+.mr2{
+    transition: 35s;
+}
+.mr3{
+    transition: 45s;
+}
+.mr4{
+    transition: 60s;
+}
+.mr5{
+    transition: 65s;
+}
+.arra1{
+    transition: 5s;
+}
+.arra2{
+    transition: 10s;
+}
+.arra3{
+    transition: 15s;
+}
+

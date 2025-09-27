@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>buyform</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <script>
+        function openpay() {
+            document.getElementById("pay").style.display = "block";
+        }
+        function closepay() {
+            document.getElementById("pay").style.display = "none";
+        }
+    </script>
+    <div class="up3">
+        <div class="joy">
+            PONGWE COFFEE SHOP
+            <blockquote>~Making your mind and body fit</blockquote>
+
+        </div>
+
+        <br>
+    </div>
+
+    <div class="buyform">
+        <div class="user"></div>
+        <form method="POST" class="form2" action="buy.php">
+            <label for="names">User name</label>
+            <br>
+            <input type="text" name="name" required="required">
+            <br>
+            <label for="product">Product ID</label>
+            <br>
+            <input type="text" name="product" required="required">
+            <br>
+            <label for="locations">Location</label>
+            <br>
+            <input type="text" name="location" required="required">
+            <br>
+            <label for="derivery">Derivery time</label>
+            <br>
+            <input type="time" name="derivery" required="required">
+            <br>
+            <label for="payment">Payment method</label>
+            <br>
+            <select name="payment">
+                <option value="airtel money"></option>
+                <option value="M-pesa">M-pesa </option>
+                <option value="Tigo pesa">Tigo pesa</option>
+                <option value="halopesa">Halopesa</option>
+                <option value="VISA">Visa card</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="openpay()">HOW TO PAY</button>
+            <br>
+            <label for="amount">Number required</label>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" name="amount" value="amount" required="required">
+            <button type="submit">ORDER</button>
+            <button type="reset">RESET</button>
+            <button style="color: blanchedalmond;"><a href="home.php">Home</a>
+            </button>
+            <br>
+            <br>
+        </form>
+        <div id="pay">
+            <h3 style="text-align: right;"><button onclick="closepay()">close payment</button></h3>
+
+            <div id="payment1">
+                <div id="mpesa">
+                    Mpesa
+                    <ol>
+                        <li>click *150*00#</li>
+                        <li>select pay via M-pesa </li>
+                        <li>Select number 5 </li>
+                        <li>Enter the payment code 5467</li>
+                        <li>Confirm the payment</li>
+                    </ol>
+                </div>&nbsp;&nbsp;&nbsp;&nbsp;
+                <div id="Tigopesa">
+                    Tigo pesa
+                    <ol>
+                        <li>click *150*66#</li>
+                        <li>Select pay by tigo pesa</li>
+                        <li>Select number 3</li>
+                        <li>Enter the payment code 2341</li>
+                        <li>comfrim the payment</li>
+                    </ol>
+                </div>
+            </div>
+            <br>
+            <div id="payment2">
+                <div id="halopesa">
+                    Halopesa
+                    <ol>
+                        <li>click *150*02#</li>
+                        <li>select number 3</li>
+                        <li>select selcom payment</li>
+                        <li> Enter the code 6752</li>
+                        <li>Confirm the payments</li>
+                    </ol>
+                </div>&nbsp;&nbsp;&nbsp;&nbsp;
+                <div id="visacard">VISA CARD
+                    <ol>
+                        <li>Open the visa application</li>
+                        <li>click business payments</li>
+                        <li>Pongweshop is the name</li>
+                        <li>Enter the code P5423</li>
+                        <li>Comfrim the payments</li>
+                    </ol>
+                </div>
+            </div>
+            <br>
+
+        </div>
+    </div>
+</body>
+
+</html

@@ -1,0 +1,7 @@
+table{
+    background-image: image('download.jpeg');
+    color: bisque;
+    font-family: 'seoul';
+    font-size: large;
+    text-align: center;
+}
